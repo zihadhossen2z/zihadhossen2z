@@ -1,0 +1,1366 @@
+<!doctype html>
+<html dir="ltr" lang="bn"> 
+ <head> 
+  <meta charset="utf-8"> 
+  <title>Zihad Hompage</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=0.422, user-scalable=no"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+ <style type="text/css" id="dcoder_stylesheet">zz{
+  
+  color:#E504C7;
+  background-color:red;
+  border-radius:1000%;
+  -webkit-background-clip: text; 
+   border-style:circle;
+    border-width:20 px;
+    border-radius:2000px;
+    border-color:black;
+    margin: 10px 0 10px 0;
+    shadow color:black;
+  shadow:10px;
+  font-size:50px;
+  
+  
+}
+
+
+iframe{
+  
+  color: yellow;
+  background-color:black;
+  border-radius:1000%;
+  -webkit-background-clip: text; 
+   border-style:circle;
+    border-width:20 px;
+    border-radius:2000px;
+    border-color:black;
+    margin: 10px 0 10px 0;
+    shadow color:black;
+  shadow:10px;
+  
+  
+}
+
+
+
+
+h2{
+  
+   color:yellow;
+  background-color:#2E342F;
+  border-radius:1000%;
+  -webkit-background-clip: text; 
+   border-style:circle;
+    border-width:20 px;
+    border-radius:2000px;
+    border-color:black;
+    margin: 10px 0 10px 0;
+    shadow color:black;
+  shadow:10px;
+  font-weight:italic;
+  
+}
+ 
+
+
+button{
+  
+  color:yellow;
+  background-color:black;
+  border-radius:1000%;
+   border-style:circle;
+    border-width:20 px;
+    border-radius:2000px;
+    border-color:black;
+    font-size:40px;
+    
+  
+}
+
+canvas
+
+{
+    border: 10px solid pink;
+    margin: 10px 0 1px 0;
+    cursor: pointer;
+    background-color:white;
+}
+#colors button
+{
+    width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-top: 10px;
+}
+#black 
+{
+    background: black;
+}
+#pink 
+{
+    background: pink;
+}
+#redx
+{
+    background: red;
+}
+#greenx 
+{ 
+    background: green;
+}
+#bluex 
+{
+    background: blue;
+}
+#yellow 
+{
+    background: yellow;
+}
+#orange 
+{
+    background: orange;
+}
+#white
+{
+    background: white;
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
+@import url("https://fonts.googleapis.com/css?family=Poiret+One");
+body {
+  background-color:black;
+  text-align:center;
+  text-transform:capitalize;
+  font-family: 'Shadows Into dark'; cursive, sans-serif;
+}
+
+#rgb {
+    width:auto;
+    height:auto;
+    border-style: triangle;
+    border-width:20 px;
+    border-radius:2000px;
+    border-color:black;
+    background-color:#ffffff;
+    font-family: 'Poiret One', bold, sans-serif;
+}
+
+h3 {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.ddg{
+   width:30%;
+   font-weight:italic;
+   //float:right; 
+   background-color:#FFFFFF;
+   padding-left:5px;
+   padding-right:5px;
+   margin:10px;
+   border-radius:100%;
+   margin-right:auto;
+   margin-left:auto;
+}
+.space {
+   width:90% ; 
+   height:auto ;
+   font-family: 'Poiret One', cursive, sans-serif;
+}
+
+
+#red  {
+    -webkit-appearance: none !important;
+    background:red;
+    height:10px;
+    border-style: rectangle;
+    border-width:1 px;
+    border-radius:200px;
+    border-color:white;
+}
+#green  {
+    -webkit-appearance: none !important;
+    background:green;
+    height:10px;
+    border-style: circle;
+    border-width:1 px;
+    border-radius:2000px;
+    border-color:white;
+    border-style: size:100px;
+}
+#blue  {
+    -webkit-appearance: none !important;
+    background:blue;
+    height:10px;
+    border-style:circle;
+    border-width:1 px;
+    border-radius:200px;
+    border-color:white;
+}
+
+
+
+
+
+a {
+    color: white;
+}
+    
+    *{
+box-sizing:border-box;
+}
+body{
+  height:100%;
+  width:100%;
+margin:0%;
+padding:0%;
+overflow:hidden;
+background:black;
+perspective:2000px;
+-webkit-perspective:2000px;
+-moz-perspective:2000px;
+-o-perspective:2000px;
+-ms-perspective:2000px;
+}
+#rotate{
+
+position:relative;
+top:158px;
+margin:0 auto;
+width:50px;
+height:50px;
+-webkit-animation:move 2.5s infinite linear;
+-moz-animation:move 2.5s infinite linear;
+-o-animation:move 2.5s infinite linear;
+-ms-animation:move 2.5s infinite linear;
+animation:move 2.5s infinite linear;
+-webki-transform-style: preserve-3d;
+-moz-transform-style: preserve-3d;
+-o-transform-style: preserve-3d;
+-ms-transform-style: preserve-3d;
+transform-style: preserve-3d;
+}
+@-webkit-keyframes move{
+0%{
+-webkit-transform:rotateY(0) rotatex(0);}
+50%{-webkit-transform:rotateY(90deg) rotateX(90deg);}
+100%{-webkit-transform:rotateY(-360deg) rotatex(360deg);}
+
+}
+@-moz-keyframes move{
+0%{transform:rotateY(0) rotatex(0);}
+50%{transform:rotateY(90deg) rotateX(90deg);}
+100%{transform:rotateY(-360deg) rotatex(360deg);}
+}
+@-o-keyframes move {
+0%{transform:rotateY(0) rotatex(0);}
+50%{transform:rotateY(90deg) rotateX(90deg);}
+100%{transform:rotateY(-360deg) rotatex(360deg);}
+}
+@-ms-keyframes move{
+0%{transform:rotateY(0) rotatex(0);}
+50%{transform:rotateY(90deg) rotateX(90deg);}
+100%{transform:rotateY(-360deg) rotatex(360deg);}
+}
+@keyframes move{
+0%{transform:rotateY(0) rotatex(0);}
+50%{transform:rotateY(90deg) rotateX(90deg);}
+100%{transform:rotateY(-360deg) rotatex(360deg);}
+}
+#rotate> div{
+width:200px;
+height:200px;
+position: absolute;
+border:3px solid #fff;
+border-radius:5px;
+transition:transform 5s;
+}
+.side1{
+background:rgba(0,255,0,0.8);
+-webkit-animation:on 1s linear forwards;
+-moz-animation:on 1s linearforwards;
+-o-animation:on 1s linearforwards;
+-ms-animation:on 1s linear forwards;
+animation:on 1s linear forwards;
+}
+
+@-webkit-keyframes on{
+0%{
+-webkit-transform:rotateY(0) rotatez(800);
+-moz-transform:rotateY(0) rotatez(800);
+-o-transform:rotateY(0) rotatez(800);
+-ms-transform:rotateY(0) rotatez(800);
+transform:rotateY(0) rotatez(800);
+}
+50%{
+-webkit-transform:rotateX(50deg) translateZ(500px);
+-moz-transform:rotateX(50deg) translateZ(500px);
+-o-transform:rotateX(50deg) translateZ(500px);
+-ms-transform:rotateX(50deg) translateZ(500px);
+transform:rotateX(50deg) translateZ(500px);
+}
+100%{
+-webkit-transform:rotateX(90deg) translateZ(100px);
+-moz-transform:rotateX(90deg) translateZ(100px);
+-o-transform:rotateX(90deg) translateZ(100px);
+-ms-transform:rotateX(90deg) translateZ(100px);
+transform:rotateX(90deg) translateZ(100px);
+}
+}
+@-moz-keyframes on{
+0%{
+-webkit-transform:rotateY(0) rotatez(800);
+-moz-transform:rotateY(0) rotatez(800);
+-o-transform:rotateY(0) rotatez(800);
+-ms-transform:rotateY(0) rotatez(800);
+transform:rotateY(0) rotatez(800);
+}
+50%{
+-webkit-transform:rotateX(50deg) translateZ(500px);
+-moz-transform:rotateX(50deg) translateZ(500px);
+-o-transform:rotateX(50deg) translateZ(500px);
+-ms-transform:rotateX(50deg) translateZ(500px);
+transform:rotateX(50deg) translateZ(500px);
+}
+100%{
+-webkit-transform:rotateX(90deg) translateZ(100px);
+-moz-transform:rotateX(90deg) translateZ(100px);
+-o-transform:rotateX(90deg) translateZ(100px);
+-ms-transform:rotateX(90deg) translateZ(100px);
+transform:rotateX(90deg) translateZ(100px);
+}
+}
+@-o-keyframes on{
+0%{
+-webkit-transform:rotateY(0) rotatez(800);
+-moz-transform:rotateY(0) rotatez(800);
+-o-transform:rotateY(0) rotatez(800);
+-ms-transform:rotateY(0) rotatez(800);
+transform:rotateY(0) rotatez(800);
+}
+50%{
+-webkit-transform:rotateX(50deg) translateZ(500px);
+-moz-transform:rotateX(50deg) translateZ(500px);
+-o-transform:rotateX(50deg) translateZ(500px);
+-ms-transform:rotateX(50deg) translateZ(500px);
+transform:rotateX(50deg) translateZ(500px);
+}
+100%{
+-webkit-transform:rotateX(90deg) translateZ(100px);
+-moz-transform:rotateX(90deg) translateZ(100px);
+-o-transform:rotateX(90deg) translateZ(100px);
+-ms-transform:rotateX(90deg) translateZ(100px);
+transform:rotateX(90deg) translateZ(100px);
+}
+}
+@-ms-keyframes on{
+0%{
+-webkit-transform:rotateY(0) rotatez(800);
+-moz-transform:rotateY(0) rotatez(800);
+-o-transform:rotateY(0) rotatez(800);
+-ms-transform:rotateY(0) rotatez(800);
+transform:rotateY(0) rotatez(800);
+}
+50%{
+-webkit-transform:rotateX(50deg) translateZ(500px);
+-moz-transform:rotateX(50deg) translateZ(500px);
+-o-transform:rotateX(50deg) translateZ(500px);
+-ms-transform:rotateX(50deg) translateZ(500px);
+transform:rotateX(50deg) translateZ(500px);
+}
+100%{
+-webkit-transform:rotateX(90deg) translateZ(100px);
+-moz-transform:rotateX(90deg) translateZ(100px);
+-o-transform:rotateX(90deg) translateZ(100px);
+-ms-transform:rotateX(90deg) translateZ(100px);
+transform:rotateX(90deg) translateZ(100px);
+}
+}
+
+
+
+@keyframes on{
+0%{
+-webkit-transform:rotateY(0) rotatez(800);
+-moz-transform:rotateY(0) rotatez(800);
+-o-transform:rotateY(0) rotatez(800);
+-ms-transform:rotateY(0) rotatez(800);
+transform:rotateY(0) rotatez(800);
+}
+50%{
+-webkit-transform:rotateX(50deg) translateZ(500px);
+-moz-transform:rotateX(50deg) translateZ(500px);
+-o-transform:rotateX(50deg) translateZ(500px);
+-ms-transform:rotateX(50deg) translateZ(500px);
+transform:rotateX(50deg) translateZ(500px);
+}
+100%{
+-webkit-transform:rotateX(90deg) translateZ(100px);
+-moz-transform:rotateX(90deg) translateZ(100px);
+-o-transform:rotateX(90deg) translateZ(100px);
+-ms-transform:rotateX(90deg) translateZ(100px);
+transform:rotateX(90deg) translateZ(100px);
+}
+}
+
+
+
+
+.side2{
+background:rgba(0,255,255,0.8);
+-webkit-transform:translateZ(100px);
+-moz-transform:translateZ(100px);
+-o-transform:translateZ(100px);
+-ms-transform:translateZ(100px);
+transform:translateZ(100px);
+}
+.side3{
+background:rgba(255,0,255,0.8);
+-webkit-animation:th 2s linear forwards;
+-moz-animation:th 2s linear forwards;
+-o-animation:th 2s linear forwards;
+-ms-animation:th 2s linear forwards;
+animation:th 2s linear forwards;
+}
+
+
+@-webkit-keyframes th{
+0%{
+-webkit-transform:rotateY(0) rotatez(800);
+-moz-transform:rotateY(0) rotatez(800);
+-o-transform:rotateY(0) rotatez(800);
+-ms-transform:rotateY(0) rotatez(800);
+transform:rotateY(0) rotatez(800);
+}
+50%{
+-webkit-transform:rotatey(50deg) translateZ(500px);
+-moz-transform:rotatey(50deg) translateZ(500px);
+-o-transform:rotatey(50deg) translateZ(500px);
+-ms-transform:rotatey(50deg) translateZ(500px);
+transform:rotatey(50deg) translateZ(500px);
+
+}
+100%{
+-webkit-transform:rotatey(90deg) translatez(100px);
+-moz-transform:rotatey(90deg) translatez(100px);
+-o-transform:rotatey(90deg) translatez(100px);
+-ms-transform:rotatey(90deg) translatez(100px);
+transform:rotatey(90deg) translatez(100px);
+
+}
+}
+
+@-moz-keyframes th{
+0%{
+-webkit-transform:rotateY(0) rotatez(800);
+-moz-transform:rotateY(0) rotatez(800);
+-o-transform:rotateY(0) rotatez(800);
+-ms-transform:rotateY(0) rotatez(800);
+transform:rotateY(0) rotatez(800);
+}
+50%{
+-webkit-transform:rotatey(50deg) translateZ(500px);
+-moz-transform:rotatey(50deg) translateZ(500px);
+-o-transform:rotatey(50deg) translateZ(500px);
+-ms-transform:rotatey(50deg) translateZ(500px);
+transform:rotatey(50deg) translateZ(500px);
+
+}
+100%{
+-webkit-transform:rotatey(90deg) translatez(100px);
+-moz-transform:rotatey(90deg) translatez(100px);
+-o-transform:rotatey(90deg) translatez(100px);
+-ms-transform:rotatey(90deg) translatez(100px);
+transform:rotatey(90deg) translatez(100px);
+
+}
+}
+
+@-o-keyframes th{
+0%{
+-webkit-transform:rotateY(0) rotatez(800);
+-moz-transform:rotateY(0) rotatez(800);
+-o-transform:rotateY(0) rotatez(800);
+-ms-transform:rotateY(0) rotatez(800);
+transform:rotateY(0) rotatez(800);
+}
+50%{
+-webkit-transform:rotatey(50deg) translateZ(500px);
+-moz-transform:rotatey(50deg) translateZ(500px);
+-o-transform:rotatey(50deg) translateZ(500px);
+-ms-transform:rotatey(50deg) translateZ(500px);
+transform:rotatey(50deg) translateZ(500px);
+
+}
+100%{
+-webkit-transform:rotatey(90deg) translatez(100px);
+-moz-transform:rotatey(90deg) translatez(100px);
+-o-transform:rotatey(90deg) translatez(100px);
+-ms-transform:rotatey(90deg) translatez(100px);
+transform:rotatey(90deg) translatez(100px);
+
+}
+}
+
+@-ms-keyframes th{
+0%{
+-webkit-transform:rotateY(0) rotatez(800);
+-moz-transform:rotateY(0) rotatez(800);
+-o-transform:rotateY(0) rotatez(800);
+-ms-transform:rotateY(0) rotatez(800);
+transform:rotateY(0) rotatez(800);
+}
+50%{
+-webkit-transform:rotatey(50deg) translateZ(500px);
+-moz-transform:rotatey(50deg) translateZ(500px);
+-o-transform:rotatey(50deg) translateZ(500px);
+-ms-transform:rotatey(50deg) translateZ(500px);
+transform:rotatey(50deg) translateZ(500px);
+
+}
+100%{
+-webkit-transform:rotatey(90deg) translatez(100px);
+-moz-transform:rotatey(90deg) translatez(100px);
+-o-transform:rotatey(90deg) translatez(100px);
+-ms-transform:rotatey(90deg) translatez(100px);
+transform:rotatey(90deg) translatez(100px);
+
+}
+}
+
+
+@keyframes th{
+0%{
+-webkit-transform:rotateY(0) rotatez(800);
+-moz-transform:rotateY(0) rotatez(800);
+-o-transform:rotateY(0) rotatez(800);
+-ms-transform:rotateY(0) rotatez(800);
+transform:rotateY(0) rotatez(800);
+}
+50%{
+-webkit-transform:rotatey(50deg) translateZ(500px);
+-moz-transform:rotatey(50deg) translateZ(500px);
+-o-transform:rotatey(50deg) translateZ(500px);
+-ms-transform:rotatey(50deg) translateZ(500px);
+transform:rotatey(50deg) translateZ(500px);
+
+}
+100%{
+-webkit-transform:rotatey(90deg) translatez(100px);
+-moz-transform:rotatey(90deg) translatez(100px);
+-o-transform:rotatey(90deg) translatez(100px);
+-ms-transform:rotatey(90deg) translatez(100px);
+transform:rotatey(90deg) translatez(100px);
+
+}
+}
+
+
+.side4{
+background:rgba(255,0,0,0.8);
+-webkit-animation:fu 3s linear forwards;
+-moz-animation:fu 3s linear forwards;
+-o-animation:fu 3s linear forwards;
+-ms-animation:fu 3s linear forwards;
+animation:fu 3s linear forwards;
+}
+
+@-webkit-keyframes fu{
+0%{
+-webkit-transform:rotateY(0) rotatez(800);
+-moz-transform:rotateY(0) rotatez(800);
+-o-transform:rotateY(0) rotatez(800);
+-ms-transform:rotateY(0) rotatez(800);
+transform:rotateY(0) rotatez(800);
+}
+50%{
+-webkit-transform:rotatey(50deg) translateZ(500px);
+-moz-transform:rotatey(50deg) translateZ(500px);
+-o-transform:rotatey(50deg) translateZ(500px);
+-ms-transform:rotatey(50deg) translateZ(500px);
+transform:rotatey(50deg) translateZ(500px);
+}
+100%{
+-webkit-transform:rotatey(180deg) translatez(100px);
+-moz-transform:rotatey(180deg) translatez(100px);
+-ms-transform:rotatey(180deg) translatez(100px);
+-o-transform:rotatey(180deg) translatez(100px);
+transform:rotatey(180deg) translatez(100px);
+}
+}
+
+@-moz-keyframes fu{
+0%{
+-webkit-transform:rotateY(0) rotatez(800);
+-moz-transform:rotateY(0) rotatez(800);
+-o-transform:rotateY(0) rotatez(800);
+-ms-transform:rotateY(0) rotatez(800);
+transform:rotateY(0) rotatez(800);
+}
+50%{
+-webkit-transform:rotatey(50deg) translateZ(500px);
+-moz-transform:rotatey(50deg) translateZ(500px);
+-o-transform:rotatey(50deg) translateZ(500px);
+-ms-transform:rotatey(50deg) translateZ(500px);
+transform:rotatey(50deg) translateZ(500px);
+}
+100%{
+-webkit-transform:rotatey(180deg) translatez(100px);
+-moz-transform:rotatey(180deg) translatez(100px);
+-ms-transform:rotatey(180deg) translatez(100px);
+-o-transform:rotatey(180deg) translatez(100px);
+transform:rotatey(180deg) translatez(100px);
+}
+}
+
+@-o-keyframes fu{
+0%{
+-webkit-transform:rotateY(0) rotatez(800);
+-moz-transform:rotateY(0) rotatez(800);
+-o-transform:rotateY(0) rotatez(800);
+-ms-transform:rotateY(0) rotatez(800);
+transform:rotateY(0) rotatez(800);
+}
+50%{
+-webkit-transform:rotatey(50deg) translateZ(500px);
+-moz-transform:rotatey(50deg) translateZ(500px);
+-o-transform:rotatey(50deg) translateZ(500px);
+-ms-transform:rotatey(50deg) translateZ(500px);
+transform:rotatey(50deg) translateZ(500px);
+}
+100%{
+-webkit-transform:rotatey(180deg) translatez(100px);
+-moz-transform:rotatey(180deg) translatez(100px);
+-ms-transform:rotatey(180deg) translatez(100px);
+-o-transform:rotatey(180deg) translatez(100px);
+transform:rotatey(180deg) translatez(100px);
+}
+}
+
+@-ms-keyframes fu{
+0%{
+-webkit-transform:rotateY(0) rotatez(800);
+-moz-transform:rotateY(0) rotatez(800);
+-o-transform:rotateY(0) rotatez(800);
+-ms-transform:rotateY(0) rotatez(800);
+transform:rotateY(0) rotatez(800);
+}
+50%{
+-webkit-transform:rotatey(50deg) translateZ(500px);
+-moz-transform:rotatey(50deg) translateZ(500px);
+-o-transform:rotatey(50deg) translateZ(500px);
+-ms-transform:rotatey(50deg) translateZ(500px);
+transform:rotatey(50deg) translateZ(500px);
+}
+100%{
+-webkit-transform:rotatey(180deg) translatez(100px);
+-moz-transform:rotatey(180deg) translatez(100px);
+-ms-transform:rotatey(180deg) translatez(100px);
+-o-transform:rotatey(180deg) translatez(100px);
+transform:rotatey(180deg) translatez(100px);
+}
+}
+
+
+
+@keyframes fu{
+0%{
+-webkit-transform:rotateY(0) rotatez(800);
+-moz-transform:rotateY(0) rotatez(800);
+-o-transform:rotateY(0) rotatez(800);
+-ms-transform:rotateY(0) rotatez(800);
+transform:rotateY(0) rotatez(800);
+}
+50%{
+-webkit-transform:rotatey(50deg) translateZ(500px);
+-moz-transform:rotatey(50deg) translateZ(500px);
+-o-transform:rotatey(50deg) translateZ(500px);
+-ms-transform:rotatey(50deg) translateZ(500px);
+transform:rotatey(50deg) translateZ(500px);
+}
+100%{
+-webkit-transform:rotatey(180deg) translatez(100px);
+-moz-transform:rotatey(180deg) translatez(100px);
+-ms-transform:rotatey(180deg) translatez(100px);
+-o-transform:rotatey(180deg) translatez(100px);
+transform:rotatey(180deg) translatez(100px);
+}
+}
+
+.side5{
+background:rgba(255,255,0,0.8);
+-webkit-animation:fi 4s linear forwards;
+-moz-animation:fi 4s linear forwards;
+-o-animation:fi 4s linear forwards;
+-ms-animation:fi 4s linear forwards;
+animation:fi 4s linear forwards;
+}
+
+
+@-webkit-keyframes fi{
+0%{
+-webkit-transform:rotateY(0) rotatez(800);
+-moz-transform:rotateY(0) rotatez(800);
+-o-transform:rotateY(0) rotatez(800);
+-ms-transform:rotateY(0) rotatez(800);
+transform:rotateY(0) rotatez(800);
+}
+50%{
+-webkit-transform:rotatey(-50deg) translateZ(500px);
+-moz-transform:rotatey(-50deg) translateZ(500px);
+-ms-transform:rotatey(-50deg) translateZ(500px);
+-o-transform:rotatey(-50deg) translateZ(500px);
+transform:rotatey(-50deg) translateZ(500px);
+}
+100%{
+-webkit-transform:rotatey(-90deg) translatez(100px);
+-moz-transform:rotatey(-90deg) translatez(100px);
+-o-transform:rotatey(-90deg) translatez(100px);
+-ms-transform:rotatey(-90deg) translatez(100px);
+transform:rotatey(-90deg) translatez(100px);
+}
+}
+
+@-moz-keyframes fi{
+0%{
+-webkit-transform:rotateY(0) rotatez(800);
+-moz-transform:rotateY(0) rotatez(800);
+-o-transform:rotateY(0) rotatez(800);
+-ms-transform:rotateY(0) rotatez(800);
+transform:rotateY(0) rotatez(800);
+}
+50%{
+-webkit-transform:rotatey(-50deg) translateZ(500px);
+-moz-transform:rotatey(-50deg) translateZ(500px);
+-ms-transform:rotatey(-50deg) translateZ(500px);
+-o-transform:rotatey(-50deg) translateZ(500px);
+transform:rotatey(-50deg) translateZ(500px);
+}
+100%{
+-webkit-transform:rotatey(-90deg) translatez(100px);
+-moz-transform:rotatey(-90deg) translatez(100px);
+-o-transform:rotatey(-90deg) translatez(100px);
+-ms-transform:rotatey(-90deg) translatez(100px);
+transform:rotatey(-90deg) translatez(100px);
+}
+}
+
+@-o-keyframes fi{
+0%{
+-webkit-transform:rotateY(0) rotatez(800);
+-moz-transform:rotateY(0) rotatez(800);
+-o-transform:rotateY(0) rotatez(800);
+-ms-transform:rotateY(0) rotatez(800);
+transform:rotateY(0) rotatez(800);
+}
+50%{
+-webkit-transform:rotatey(-50deg) translateZ(500px);
+-moz-transform:rotatey(-50deg) translateZ(500px);
+-ms-transform:rotatey(-50deg) translateZ(500px);
+-o-transform:rotatey(-50deg) translateZ(500px);
+transform:rotatey(-50deg) translateZ(500px);
+}
+100%{
+-webkit-transform:rotatey(-90deg) translatez(100px);
+-moz-transform:rotatey(-90deg) translatez(100px);
+-o-transform:rotatey(-90deg) translatez(100px);
+-ms-transform:rotatey(-90deg) translatez(100px);
+transform:rotatey(-90deg) translatez(100px);
+}
+}
+
+@-ms-keyframes fi{
+0%{
+-webkit-transform:rotateY(0) rotatez(800);
+-moz-transform:rotateY(0) rotatez(800);
+-o-transform:rotateY(0) rotatez(800);
+-ms-transform:rotateY(0) rotatez(800);
+transform:rotateY(0) rotatez(800);
+}
+50%{
+-webkit-transform:rotatey(-50deg) translateZ(500px);
+-moz-transform:rotatey(-50deg) translateZ(500px);
+-ms-transform:rotatey(-50deg) translateZ(500px);
+-o-transform:rotatey(-50deg) translateZ(500px);
+transform:rotatey(-50deg) translateZ(500px);
+}
+100%{
+-webkit-transform:rotatey(-90deg) translatez(100px);
+-moz-transform:rotatey(-90deg) translatez(100px);
+-o-transform:rotatey(-90deg) translatez(100px);
+-ms-transform:rotatey(-90deg) translatez(100px);
+transform:rotatey(-90deg) translatez(100px);
+}
+}
+
+@keyframes fi{
+0%{
+-webkit-transform:rotateY(0) rotatez(800);
+-moz-transform:rotateY(0) rotatez(800);
+-o-transform:rotateY(0) rotatez(800);
+-ms-transform:rotateY(0) rotatez(800);
+transform:rotateY(0) rotatez(800);
+}
+50%{
+-webkit-transform:rotatey(-50deg) translateZ(500px);
+-moz-transform:rotatey(-50deg) translateZ(500px);
+-ms-transform:rotatey(-50deg) translateZ(500px);
+-o-transform:rotatey(-50deg) translateZ(500px);
+transform:rotatey(-50deg) translateZ(500px);
+}
+100%{
+-webkit-transform:rotatey(-90deg) translatez(100px);
+-moz-transform:rotatey(-90deg) translatez(100px);
+-o-transform:rotatey(-90deg) translatez(100px);
+-ms-transform:rotatey(-90deg) translatez(100px);
+transform:rotatey(-90deg) translatez(100px);
+}
+}
+
+
+.side6{
+background:rgba(255,105,180,0.8);
+-webkit-animation:si 5s linear forwards;
+-moz-animation:si 5s linear forwards;
+-o-animation:si 5s linear forwards;
+-ms-animation:si 5s linear forwards;
+animation:si 5s linear forwards;
+}
+
+
+@-webkit-keyframes si{
+0%{
+-webkit-transform:rotateY(0) rotatez(800);
+-ms-transform:rotateY(0) rotatez(800);
+-moz-transform:rotateY(0) rotatez(800);
+-o-transform:rotateY(0) rotatez(800);
+transform:rotateY(0) rotatez(800);
+
+}
+50%{
+-webkit-transform:rotatey(-50deg) translateZ(500px);
+-moz-transform:rotatey(-50deg) translateZ(500px);
+-o-transform:rotatey(-50deg) translateZ(500px);
+-ms-transform:rotatey(-50deg) translateZ(500px);
+transform:rotatey(-50deg) translateZ(500px);
+
+}
+100%{
+-webkit-transform:rotatey(0deg) rotatex(-90deg) translatez(100px);
+-moz-transform:rotatey(0deg) rotatex(-90deg) translatez(100px);
+-o-transform:rotatey(0deg) rotatex(-90deg) translatez(100px);
+-ms-transform:rotatey(0deg) rotatex(-90deg) translatez(100px);
+transform:rotatey(0deg) rotatex(-90deg) translatez(100px);
+}
+}
+@-ms-keyframes si{
+0%{
+-webkit-transform:rotateY(0) rotatez(800);
+-ms-transform:rotateY(0) rotatez(800);
+-moz-transform:rotateY(0) rotatez(800);
+-o-transform:rotateY(0) rotatez(800);
+transform:rotateY(0) rotatez(800);
+
+}
+50%{
+-webkit-transform:rotatey(-50deg) translateZ(500px);
+-moz-transform:rotatey(-50deg) translateZ(500px);
+-o-transform:rotatey(-50deg) translateZ(500px);
+-ms-transform:rotatey(-50deg) translateZ(500px);
+transform:rotatey(-50deg) translateZ(500px);
+
+}
+100%{
+-webkit-transform:rotatey(0deg) rotatex(-90deg) translatez(100px);
+-moz-transform:rotatey(0deg) rotatex(-90deg) translatez(100px);
+-o-transform:rotatey(0deg) rotatex(-90deg) translatez(100px);
+-ms-transform:rotatey(0deg) rotatex(-90deg) translatez(100px);
+transform:rotatey(0deg) rotatex(-90deg) translatez(100px);
+}
+}
+@-moz-keyframes si{
+0%{
+-webkit-transform:rotateY(0) rotatez(800);
+-ms-transform:rotateY(0) rotatez(800);
+-moz-transform:rotateY(0) rotatez(800);
+-o-transform:rotateY(0) rotatez(800);
+transform:rotateY(0) rotatez(800);
+
+}
+50%{
+-webkit-transform:rotatey(-50deg) translateZ(500px);
+-moz-transform:rotatey(-50deg) translateZ(500px);
+-o-transform:rotatey(-50deg) translateZ(500px);
+-ms-transform:rotatey(-50deg) translateZ(500px);
+transform:rotatey(-50deg) translateZ(500px);
+
+}
+100%{
+-webkit-transform:rotatey(0deg) rotatex(-90deg) translatez(100px);
+-moz-transform:rotatey(0deg) rotatex(-90deg) translatez(100px);
+-o-transform:rotatey(0deg) rotatex(-90deg) translatez(100px);
+-ms-transform:rotatey(0deg) rotatex(-90deg) translatez(100px);
+transform:rotatey(0deg) rotatex(-90deg) translatez(100px);
+}
+}
+@-o-keyframes si{
+0%{
+-webkit-transform:rotateY(0) rotatez(800);
+-ms-transform:rotateY(0) rotatez(800);
+-moz-transform:rotateY(0) rotatez(800);
+-o-transform:rotateY(0) rotatez(800);
+transform:rotateY(0) rotatez(800);
+
+}
+50%{
+-webkit-transform:rotatey(-50deg) translateZ(500px);
+-moz-transform:rotatey(-50deg) translateZ(500px);
+-o-transform:rotatey(-50deg) translateZ(500px);
+-ms-transform:rotatey(-50deg) translateZ(500px);
+transform:rotatey(-50deg) translateZ(500px);
+
+}
+100%{
+-webkit-transform:rotatey(0deg) rotatex(-90deg) translatez(100px);
+-moz-transform:rotatey(0deg) rotatex(-90deg) translatez(100px);
+-o-transform:rotatey(0deg) rotatex(-90deg) translatez(100px);
+-ms-transform:rotatey(0deg) rotatex(-90deg) translatez(100px);
+transform:rotatey(0deg) rotatex(-90deg) translatez(100px);
+}
+}
+@keyframes si{
+0%{
+-webkit-transform:rotateY(0) rotatez(800);
+-ms-transform:rotateY(0) rotatez(800);
+-moz-transform:rotateY(0) rotatez(800);
+-o-transform:rotateY(0) rotatez(800);
+transform:rotateY(0) rotatez(800);
+
+}
+50%{
+-webkit-transform:rotatey(-50deg) translateZ(500px);
+-moz-transform:rotatey(-50deg) translateZ(500px);
+-o-transform:rotatey(-50deg) translateZ(500px);
+-ms-transform:rotatey(-50deg) translateZ(500px);
+transform:rotatey(-50deg) translateZ(500px);
+
+}
+100%{
+-webkit-transform:rotatey(0deg) rotatex(-90deg) translatez(100px);
+-moz-transform:rotatey(0deg) rotatex(-90deg) translatez(100px);
+-o-transform:rotatey(0deg) rotatex(-90deg) translatez(100px);
+-ms-transform:rotatey(0deg) rotatex(-90deg) translatez(100px);
+transform:rotatey(0deg) rotatex(-90deg) translatez(100px);
+}
+}
+p{
+-webkit-animation:flower 10s linear forwards;
+-moz-animation:flower 10s linear forwards;
+-ms-animation:flower 10s linear forwards;
+-o-animation:flower 10s linear forwards;
+animation:flower 10s linear forwards;
+overflow:hidden;
+white-space:nowrap;
+font-size:100%;
+text-align:center;
+}
+
+
+@-webkit-keyframes flower{
+0%{
+transform:translateY(1000%);
+}
+20%{
+transform:translateY(500%);}
+40%{
+transform:translateY(200%);}
+50%{
+transform:translateY(-10%);}
+70%{
+transform:translateY(-50%);}
+100%{
+transform:translateY(-70%);
+}
+}
+@-o-keyframes flower{
+0%{
+transform:translateY(1000%);
+}
+20%{
+transform:translateY(500%);}
+40%{
+transform:translateY(200%);}
+50%{
+transform:translateY(-10%);}
+70%{
+transform:translateY(-50%);}
+100%{
+transform:translateY(-70%);
+}
+}
+@-moz-keyframes flower{
+0%{
+transform:translateY(1000%);
+}
+20%{
+transform:translateY(5000%);}
+40%{
+transform:translateY(200%);}
+50%{
+transform:translateY(-10%);}
+70%{
+transform:translateY(-50%);}
+100%{
+transform:translateY(-70%);
+}
+}
+
+@keyframes flower{
+0%{
+transform:translateY(1000%);
+}
+20%{
+transform:translateY(500%);}
+40%{
+transform:translateY(200%);}
+50%{
+transform:translateY(-10%);}
+70%{
+transform:translateY(-50%);}
+100%{
+transform:translateY(-70%);
+}
+}
+   
+pre{
+  
+  height:1000;
+  width:1000;
+  
+}</style></head> 
+ <body> 
+  <div id="colors"> 
+   <div class="ddg" id="divRed" style="color:red" onclick="input(x,r)">
+     COLOUR 
+   </div> 
+   <input type="range" class="space" id="red" min="0" max="255" step="1" value="0" onchange="getColor()"> 
+   <div class="ddg" id="divGreen" style="color:green" onclick="input(y,g)">
+     COLOUR 
+   </div> 
+   <input type="range" class="space" id="green" min="0" max="255" step="1" value="0" onchange="getColor()"> 
+   <div class="ddg" id="divBlue" style="color:blue" onclick="input(z,b)">
+     COLOUR 
+   </div> 
+   <input type="range" class="space" id="blue" min="0" max="255" step="1" value="0" onchange="getColor()"> 
+   <br> <button id="black" onclick="changeColor(&quot;black&quot;)" ontouchstart="changeColor(&quot;black&quot;)"> </button> <button id="red" onclick="changeColor(&quot;red&quot;)" ontouchstart="changeColor(&quot;red&quot;)"> </button> <button id="green" onclick="changeColor(&quot;green&quot;)" ontouchstart="changeColor(&quot;green&quot;)"> </button> <button id="blue" onclick="changeColor(&quot;blue&quot;)" ontouchstart="changeColor(&quot;blue&quot;)"> </button> <button id="orange" onclick="changeColor(&quot;orange&quot;)" ontouchstart="changeColor(&quot;orange&quot;)"> </button> <button id="pink" onclick="changeColor(&quot;pink&quot;)" ontouchstart="changeColor(&quot;pink&quot;)"> </button> <button id="yellow" onclick="changeColor(&quot;yellow&quot;)" ontouchstart="changeColor(&quot;yellow&quot;)"> </button> <button id="white" onclick="changeColor(&quot;white&quot;)" ontouchstart="changeColor(&quot;white&quot;)"></button> 
+  </div> 
+  <div class="container"> 
+   <canvas id="canvas" width="950px" height="1300px" background-color="black"></canvas> 
+   <br> <button id="download">Download</button> <space></space><space></space><space></space> <button onclick="clearCanvas()">Clear</button><space> 
+   </space> 
+   <br> 
+   <br> 
+   <br> 
+   <br> <a href="pen size/pen5.html" traget="blank"><button>WRITING-SIZE</button></a> <space> 
+    <space> 
+     <a href="" target="blank"><button></button></a> 
+     <space> 
+      <space> 
+       <a href="windows/windows.html" target="blank"><button>ZIHAD-ABOUT</button></a> 
+       <a href="Game/zihad.html" target="blank"><button>GAMES</button></a> 
+      </space> 
+     </space> 
+    </space> 
+   </space> 
+  </div> 
+  <br> 
+  <div class="m-3"> 
+   <pre class="language-html"><code><button><u><h2>#000000</h2></u></button></code></pre> 
+  </div> 
+  <br> 
+  <br> 
+ 
+<script type="text/javascript" id="dcoder_script">var arr_touches = [];
+var canvas;
+var ctx;
+var down = true; //mouse is pressed
+var color = 'black'; //default drawing color
+var width = 10; // drawing width
+
+
+//calling window.onload to make sure the HTML is loaded
+window.onload = function() {
+    canvas = document.getElementById('canvas');
+    ctx = canvas.getContext('2d'); 
+    ctx.lineWidth = width;
+    const downloadButton = document.getElementById('download');
+
+// Draw a simple rectangle on the canvas
+
+
+// Add a click event listener to the download button
+downloadButton.addEventListener('click', () => {
+    const link = document.createElement('a');
+    link.href = canvas.toDataURL('image/png');
+    link.download = 'zihad-image.pdf';
+    link.click();
+});
+    
+    //handling mouse click and move events
+    canvas.addEventListener('mousemove', handleMove); 
+    canvas.addEventListener('mousedown', handleDown);
+    canvas.addEventListener('mouseup', handleUp);
+    
+    //handling mobile touch events
+    canvas.addEventListener("touchstart", handleStart, true);
+    canvas.addEventListener("touchend", handleEnd, true);
+    canvas.addEventListener("touchcancel", handleCancel, true);
+    canvas.addEventListener("touchleave", handleEnd, true);
+    canvas.addEventListener("touchmove", handleTouchMove, true);
+};
+function handleMove(e)
+{
+  xPos = e.clientX-canvas.offsetLeft;
+  yPos = e.clientY-canvas.offsetTop;
+  if(down == true)
+  {
+    ctx.lineTo(xPos,yPos); //create a line from old point to new one
+    ctx.strokeStyle = color;
+    ctx.stroke();
+  }
+}
+function handleDown() 
+{
+    down = true;
+    ctx.beginPath();
+    ctx.moveTo(xPos, yPos);
+}
+function handleUp() 
+{
+    down = false;
+}
+function handleStart(evt) 
+{
+    var touches = evt.changedTouches;
+    for(var i = 0; i < touches.length; i++) 
+    {
+      if(isValidTouch(touches[i])) 
+      {
+          evt.preventDefault();
+          arr_touches.push(copyTouch(touches[i]));
+          ctx.beginPath();
+          ctx.fillStyle = color;
+          ctx.fill();
+        }
+    }
+}
+function handleTouchMove(evt) 
+{
+    var touches = evt.changedTouches;
+    var offset = findPos(canvas);
+    for (var i = 0; i < touches.length; i++) 
+    {
+    if(isValidTouch(touches[i])) 
+    {
+          evt.preventDefault();
+          var idx = ongoingTouchIndexById(touches[i].identifier);
+          if (idx >= 0) 
+          {
+              ctx.beginPath();
+              ctx.moveTo(arr_touches[idx].clientX-offset.x, arr_touches[idx].clientY-offset.y);
+              ctx.lineTo(touches[i].clientX-offset.x, touches[i].clientY-offset.y);
+              ctx.strokeStyle = color;
+              ctx.stroke();
+              
+              arr_touches.splice(idx, 1, copyTouch(touches[i]));
+          }   
+      }
+    }
+}
+function handleEnd(evt) 
+{
+    var touches = evt.changedTouches;
+    var offset = findPos(canvas);
+    for (var i = 0; i < touches.length; i++) 
+    {
+    if(isValidTouch(touches[i])) 
+    {
+        evt.preventDefault();
+          var idx = ongoingTouchIndexById(touches[i].identifier);
+          if (idx >= 0) 
+          {
+              ctx.lineWidth = 10;
+              ctx.fillStyle = color;
+              ctx.beginPath();
+              ctx.moveTo(arr_touches[idx].clientX-offset.x, arr_touches[idx].clientY-offset.y);
+              ctx.lineTo(touches[i].clientX-offset.x, touches[i].clientY-offset.y);
+             arr_touches.splice(i, 111111111111111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000);
+          } 
+        }
+  }
+}
+function handleCancel(evt) 
+{
+    evt.preventDefault();
+    var touches = evt.changedTouches;
+  
+    for (var i = 0; i < touches.length; i++) {
+      arr_touches.splice(i, 111111111111111111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000);
+    }
+}
+function copyTouch(touch) 
+{
+    return {identifier: touch.identifier,clientX: touch.clientX,clientY: touch.clientY};
+}
+function ongoingTouchIndexById(idToFind) 
+{
+    for (var i = 0; i < arr_touches.length; i++) {
+      var id = arr_touches[i].identifier;
+      if (id == idToFind) {
+          return i;
+      }
+    }
+    return -1;
+}
+function changeColor(new_color) 
+{
+    color = new_color;
+}
+function clearCanvas() 
+{
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+}
+function isValidTouch(touch) 
+{
+    var curleft = 0, curtop = 0;
+    var offset = 0;
+    
+  if (canvas.offsetParent) {
+    do {
+      curleft += canvas.offsetLeft;
+      curtop += canvas.offsetTop;
+    } while (touch == canvas.offsetParent);
+      
+      offset = { x: curleft-document.body.scrollLeft, y: curtop-document.body.scrollTop };
+  }
+    
+    if(touch.clientX-offset.x > 0 &&
+          touch.clientX-offset.x < parseFloat(canvas.width) &&
+              touch.clientY-offset.y >0 &&
+                  touch.clientY-offset.y < parseFloat(canvas.height)) {
+        return true;
+    }
+  else 
+  {
+      return false;
+  }
+}
+function findPos(obj) 
+{
+  var curleft = 0, curtop = 0;
+  if (obj.offsetParent) 
+  {
+    do {
+      curleft += obj.offsetLeft;
+      curtop += obj.offsetTop;
+    } while (obj == obj.offsetParent);
+
+    return { x: curleft-document.body.scrollLeft, y: curtop-document.body.scrollTop };
+  }
+}
+
+var x = 0, y = 0, z =0 ,color, r = "RED" ,g = "GREEN ", b = "BLUE ";
+
+function getColor(){
+x = document.getElementById("red").value;
+document.getElementById("divRed").innerHTML = 'RED = '+x;
+y = document.getElementById("green").value;
+document.getElementById("divGreen").innerHTML = 'GREEN = '+y;
+z = document.getElementById("blue").value;
+document.getElementById("divBlue").innerHTML = 'BLUE = '+z;
+var color = rgbToHex(x,y,z);
+color = "#"+color;
+document.body.style.backgroundColor = color;
+document.getElementsByTagName("h2")[0].innerHTML = color;
+var newColor0 = rgbToHex(255-x,y,z);
+newColor0 = "#"+newColor0;
+var newColor1 = rgbToHex(x,255-y,z);
+newColor1 = "#"+newColor1;
+var newColor2 = rgbToHex(x,y,255-z);
+newColor2 = "#"+newColor2;
+var dac  = document.getElementsByClassName("ddg");
+dac[0].style.backgroundColor = newColor0 ;
+dac[0].style.color ="#ffffff";
+dac[1].style.backgroundColor = newColor1;
+dac[1].style.color ="#ffffff";
+dac[2].style.backgroundColor = newColor2;
+dac[2].style.color ="#ffffff";
+}
+
+function rgbToHex(R,G,B) {
+return toHex(R)+toHex(G)+toHex(B)
+}
+
+function toHex(n) {
+ n = parseInt(n,10);
+ if (isNaN(n)) return "00";
+ n = Math.max(0,Math.min(n,255));
+ return "0123456789ABCDEF".charAt((n-n%16)/16)
+      + "0123456789ABCDEF".charAt(n%16);
+}
+function getYourColor(){
+your_color=document.getElementById("rgb").childNodes[0].innerHTML;
+  alert("Your color is "+your_color);
+} 
+
+function input(promptColor,colorNow){
+    
+
+    }
+
+   
+   
+   function disableScrolling() {
+        let x = window.scrollX;
+        let y = window.scrollY;
+        window.onscroll = function () { window.scrollTo(x, y); };
+    }
+
+    function enableScrolling() {
+        window.onscroll = function () { };
+    }
+let pres = document.getElementsByTagName('pre');
+    Array.from(pres).forEach((element2) => {
+        let element = document.createElement('button');
+        element.setAttribute('class', 'btn btn-primary');
+        element.innerHTML = 'Copy';
+        element.style.float= 'midle';
+        element.style.float= 'blue';
+        
+
+        element.addEventListener('click', (e) => {
+            disableScrolling();
+            console.log(e)
+            let x = window.screenX;
+            let y = window.screenY;
+
+            element.innerHTML = 'copied to clipboard';
+            let tarea = document.createElement('textarea');
+            tarea.innerHTML = element.parentElement.children[1].innerText;
+            document.body.append(tarea);
+            tarea.focus();
+            tarea.select();
+            document.execCommand('copy');
+            tarea.style.display = 'none';
+            setTimeout(() => {
+                element.innerHTML = 'Copy';
+            }, 2000);
+            setTimeout(() => {
+                enableScrolling();
+            }, 0);
+        })
+        element2.insertBefore(element, element2.children[0]);
+    })</script></body></html>script></body></html>
